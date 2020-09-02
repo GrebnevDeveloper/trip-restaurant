@@ -9,6 +9,12 @@ android {
         versionCode 1
         versionName "1.0"
 
+        buildConfigField "String", "API_URL", '"https://www.tripadvisor1.p.rapidapi.com"'
+        buildConfigField "String", "API_HOST_NAME", '"x-rapidapi-host"'
+        buildConfigField "String", "API_HOST_VALUE", '"tripadvisor1.p.rapidapi.com"'
+        buildConfigField "String", "API_KEY_NAME", '"x-rapidapi-key"'
+        buildConfigField "String", "API_KEY_VALUE", '"059fcd16f0msh068e4296a6d5b67p186691jsna948154476f8"'
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
     }

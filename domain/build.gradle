@@ -6,6 +6,9 @@ dependencies {
     // ===reactive===
     implementation 'io.reactivex.rxjava2:rxjava:2.2.6'
     implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+
+    // ===dagger2===
+    implementation 'com.google.dagger:dagger:2.24'
 }
 
 sourceCompatibility = "1.8"
